@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Survey for website visitors">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Survey Page</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label>How did you hear about me?</label><br>
+      <input type="checkbox" name="source" value="Google"> Google<br>
+      <input type="checkbox" name="source" value="Friend"> Friend<br>
+      <input type="checkbox" name="source" value="Social Media"> Social Media<br>
+      <input type="checkbox" name="source" value="Other"> Other<br><br>
+
+      <label>Rate your experience:</label><br>
+      <input type="radio" name="experience" value="Excellent"> Excellent<br>
+      <input type="radio" name="experience" value="Good"> Good<br>
+      <input type="radio" name="experience" value="Fair"> Fair<br>
+      <input type="radio" name="experience" value="Poor"> Poor<br><br>
+
+      <label for="feedback">Your Comments:</label><br>
+      <textarea id="feedback" name="feedback"></textarea><br><br>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Enock Sawe</p>
+  </footer>
+
+</body>
+</html>
